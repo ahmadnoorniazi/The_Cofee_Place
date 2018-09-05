@@ -1,0 +1,29 @@
+
+.navigation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  height: auto;
+  background-color: rgba(67, 39, 38, .8);
+  min-width: 100%;
+  li {
+    flex: 1;
+  }
+  a {
+    color: white;
+    font-size: 24px;
+    display: block;
+    min-height: 100%;
+    padding: .3em;
+    text-decoration: none;
+    &.active {
+      color: rgba(67, 39, 38, 1);
+      background: #D3D0CD;
+    
+    }
+      @media screen and (min-width: 40em) {
+    font-size: inherit;
+  }
+  }
+}

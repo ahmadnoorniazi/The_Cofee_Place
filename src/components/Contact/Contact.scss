@@ -1,0 +1,48 @@
+.contact {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+  height: 100vh;
+position: relative;
+  @media screen and (min-width: 40em) {
+    max-width: 50%;
+  }
+    
+  @media screen and (min-width: 62em) {
+    max-width: 40%;
+  }
+}
+
+.contact__content {
+  @media screen and (min-width: 66em) {
+    padding-top: 2rem;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  position: absolute;
+  bottom: 15vmin;
+   left: 0;
+   right:0;
+   width: 50vmin;
+   @media screen and (min-width: 40em) {
+     width: 40vmin;
+  }
+  @media screen and (min-width: 62em) {
+    max-width: 30vmin;
+  }
+  li {
+    flex:1;
+    padding: .5em;
+
+
+    img {
+      width: 10vmin;
+    }
+  }
+}
