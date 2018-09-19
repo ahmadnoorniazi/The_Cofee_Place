@@ -16,6 +16,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
+      <h1>Software Engineer</h1>
+      <h1>Ahmadnooroo89@gmail.com</h1>
+      
         <div
           className="contact__content"
           dangerouslySetInnerHTML={{ __html: this.props.page.rendered }}
